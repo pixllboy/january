@@ -1,12 +1,12 @@
 .card {
     width: 190px;
-    height: 840px;
+    height: 900px;
     padding: 5%;
     background: rgb(255, 255, 255);
-    border-bottom: 20% solid blueviolet;
-    border-right: 20% solid blueviolet;
-    border-top: 20% solid white;
-    border-left: 20% solid white;
+    border-bottom: 10px solid blueviolet;
+    border-right: 10px solid blueviolet;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
     transition-duration: 1s;
     transition-property: border-top, 
        border-left, 
@@ -16,10 +16,10 @@
    }
    
    .card:hover {
-    border-top: 20% solid blueviolet;
-    border-left: 20% solid blueviolet;
-    border-bottom: 20% solid rgb(238, 103, 238);
-    border-right: 20% solid rgb(238, 103, 238);
+    border-top: 10px solid blueviolet;
+    border-left: 10px solid blueviolet;
+    border-bottom: 10px solid rgb(238, 103, 238);
+    border-right: 10px solid rgb(238, 103, 238);
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
    }
    
